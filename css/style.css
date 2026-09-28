@@ -35,3 +35,38 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* Style the main header using an ID */
+#main-header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 3px solid #7a0019;
+}
+
+/* Style the skills section using an ID */
+#skills-section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Style informational paragraphs using a class */
+.info-text {
+    background-color: #eeeeee;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+/* Style skill list items using a class */
+.skill-item {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+/* Flexbox layout */
+.flex-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
