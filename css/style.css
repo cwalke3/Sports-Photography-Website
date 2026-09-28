@@ -70,3 +70,19 @@ img {
     gap: 20px;
     align-items: flex-start;
 }
+
+/* Flexbox layout for the skills list */
+#skills-section ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.skill-item {
+    list-style: none;
+    background-color: #7a0019;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+}
