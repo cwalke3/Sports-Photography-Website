@@ -86,3 +86,32 @@ img {
     padding: 12px;
     border-radius: 6px;
 }
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    #skills-section ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
