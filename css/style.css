@@ -64,12 +64,6 @@ img {
     font-weight: bold;
 }
 
-/* Flexbox layout */
-.flex-container {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
-}
 
 /* Flexbox layout for the skills list */
 #skills-section ul {
@@ -101,17 +95,12 @@ img {
         font-size: 24px;
     }
 
-    .flex-container {
-        flex-direction: column;
-    }
+
 
     #skills-section ul {
         flex-direction: column;
         gap: 10px;
     }
 
-    nav a {
-        display: block;
-        margin: 10px 0;
-    }
+    
 }
